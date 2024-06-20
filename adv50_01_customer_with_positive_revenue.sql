@@ -1,7 +1,7 @@
 -- Question: Find Customers With Positive Revenue for this year 
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=WD7ktK5Vmo8
+-- Tamil Video: https://www.youtube.com/watch?v=UlmlRKJl9ko
 
 Create table Customers (customer_id int, year int, revenue int);
 Truncate table Customers;
