@@ -1,7 +1,7 @@
 -- Question: Find all customers who never order anything
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=GxhgVYly0ig
+-- Tamil Video: https://www.youtube.com/watch?v=auhfFXVbbcA
 
 Create table Customers (customer_id int, name varchar(255));
 Truncate table Customers;
