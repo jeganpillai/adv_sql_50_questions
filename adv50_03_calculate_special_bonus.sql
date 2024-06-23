@@ -1,7 +1,8 @@
 -- Question: Calculate the bonus of each employee
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=LcrfxmTffMo
+-- Tamil Video: https://www.youtube.com/watch?v=M56ZK0bqoAE
+ 
 
 Create table Employees (employee_id int, name varchar(30), salary int);
 Truncate table Employees;
