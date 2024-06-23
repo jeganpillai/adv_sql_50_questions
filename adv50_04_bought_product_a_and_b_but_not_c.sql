@@ -1,7 +1,8 @@
 -- Question: Find Customers who bought Product A and B but not C
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=WRXN6QUA9hM
+-- Tamil Video: https://www.youtube.com/watch?v=cToVFVkr2Fg
+
 
 Create table Customers (customer_id int, customer_name varchar(30));
 Truncate table Customers;
