@@ -1,7 +1,7 @@
 -- Question: Combine two tables for the required dataset
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=px1hMcEEnto
+-- Tamil Video: https://www.youtube.com/watch?v=sYkIib-8mkE
 
 Create table Person (personId int, 
                      firstName varchar(255), 
