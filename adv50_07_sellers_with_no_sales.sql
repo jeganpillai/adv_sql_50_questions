@@ -1,7 +1,7 @@
 -- Question: Find the Sellers With No Sales
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=n3IfZAmndqk
+-- Tamil Video: https://www.youtube.com/watch?v=cwXHWlPtO3o
 
 Create table Customer (
   customer_id int, 
