@@ -1,7 +1,7 @@
 -- Question: Find the highest grade with its corresponding course for each student
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=mlVHOSNubuc
+-- Tamil Video: https://www.youtube.com/watch?v=1rnoBMWlF0s
 
 Create table Enrollments (student_id int, course_id int, grade int);
 Truncate table Enrollments;
