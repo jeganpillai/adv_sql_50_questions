@@ -42,7 +42,7 @@ select host_team as team_id,
        t.team_name,
        case when host_goals > guest_goals then 3
             when host_goals = guest_goals then 1
-            end as num_points 
+            else 0 end as num_points 
 from Matches m
 inner join Teams t
 on t.team_id = m.host_team
@@ -51,7 +51,7 @@ select guest_team as team_id,
        t.team_name,
        case when guest_goals > host_goals then 3
             when guest_goals = host_goals then 1
-            end as num_points 
+            else 0 end as num_points 
 from Matches m
 inner join Teams t
 on t.team_id = m.guest_team)
