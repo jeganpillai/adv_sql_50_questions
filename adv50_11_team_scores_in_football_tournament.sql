@@ -7,7 +7,7 @@ Create table Teams (team_id int,
                     team_name varchar(30));
 Truncate table Teams;
 insert into Teams (team_id, team_name) values 
- ('10', 'Leetcode FC')
+ ('10', 'San Fransisco FC')
 ,('20', 'NewYork FC')
 ,('30', 'Atlanta FC')
 ,('40', 'Chicago FC')
@@ -27,14 +27,15 @@ insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) v
 ,(5, 50, 30, 1, 0);
 
 /*
-| team_id    | team_name    | num_points    |
-+------------+--------------+---------------+
-| 10         | Leetcode FC  | 7             |
-| 20         | NewYork FC   | 3             |
-| 50         | Toronto FC   | 3             |
-| 30         | Atlanta FC   | 1             |
-| 40         | Chicago FC   | 0             |
-+------------+--------------+---------------+
++------------+-------------------+---------------+
+| team_id    | team_name         | num_points    |
++------------+-------------------+---------------+
+| 10         | San Fransisco FC  | 7             |
+| 20         | NewYork FC        | 3             |
+| 50         | Toronto FC        | 3             |
+| 30         | Atlanta FC        | 1             |
+| 40         | Chicago FC        | 0             |
++------------+-------------------+---------------+
 */
 
 with all_data_points as (
