@@ -1,7 +1,8 @@
 -- Question: Evaluate Boolean Expression
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=lXS4CkE7S_M
+-- Tamil Video: https://www.youtube.com/watch?v=9NzF545EEbQ
+
 
 Create Table If Not Exists Variables (name varchar(3), value int);
 Truncate table Variables;
