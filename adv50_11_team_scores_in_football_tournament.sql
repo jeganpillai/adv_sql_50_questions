@@ -40,22 +40,16 @@ insert into Matches (match_id, host_team, guest_team, host_goals, guest_goals) v
 
 with all_data_points as (
 select host_team as team_id,
-       t.team_name,
        case when host_goals > guest_goals then 3
             when host_goals = guest_goals then 1
             else 0 end as num_points 
 from Matches m
-inner join Teams t
-on t.team_id = m.host_team
 union all 
 select guest_team as team_id,
-       t.team_name,
        case when guest_goals > host_goals then 3
             when guest_goals = host_goals then 1
             else 0 end as num_points 
-from Matches m
-inner join Teams t
-on t.team_id = m.guest_team)
+from Matches m)
 select t.team_id,
        t.team_name,
        coalesce(sum(num_points),0) as num_points
