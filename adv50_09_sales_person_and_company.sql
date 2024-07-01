@@ -1,7 +1,8 @@
 -- Question: Find the Sales Person who never got Order for the Company RED
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=KPBzjfocQ9k
+-- Tamil Video: https://www.youtube.com/watch?v=NsEKrHFunx4
+
 
 Create table SalesPerson (sales_id int, 
                           name varchar(255), 
