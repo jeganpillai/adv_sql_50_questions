@@ -1,7 +1,7 @@
 -- Question: Find the Top Travellers by Distance travelled by them
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Zsy2H6JyjD4
+-- Tamil Video: https://www.youtube.com/watch?v=296-VdtfMUU
 
 Create Table If Not Exists Users (id int, name varchar(30));
 Truncate table Users;
