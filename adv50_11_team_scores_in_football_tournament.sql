@@ -1,7 +1,7 @@
 -- Question: Report the Team Scores in Football Tournament
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=lYmssFdteVw
+-- Tamil Video: https://www.youtube.com/watch?v=XtHrXGVwO2U
 
 Create table Teams (team_id int, 
                     team_name varchar(30));
