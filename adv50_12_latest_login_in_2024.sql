@@ -1,7 +1,7 @@
 -- Question: Find the Latest Login of all users in 2024
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=9yQvd6n2m_w
+-- Tamil Video: https://www.youtube.com/watch?v=Xpn4-LPOkno
 
 Create table Logins (user_id int, time_stamp datetime);
 Truncate table Logins;
@@ -32,7 +32,7 @@ select user_id, max(time_stamp) as last_stamp
       where year(time_stamp) = 2024
    group by 1;
 
--- Using Windows function 
+-- Approach 2: Using Windows function 
 with all_data as (
 select user_id, 
        time_stamp,
@@ -41,4 +41,4 @@ select user_id,
       where year(time_stamp) = 2024)
 select user_id, time_stamp as last_stamp 
        from all_data 
-      where rnk = 1
+      where rnk = 1;
