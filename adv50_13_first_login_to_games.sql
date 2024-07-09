@@ -1,7 +1,7 @@
 -- Question: Find the first login date for each player.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=qwFUybs5F84
+-- Tamil Video: https://www.youtube.com/watch?v=3krB-ox-Pig
 
 Create table Activity (
   player_id int, 
