@@ -1,7 +1,7 @@
 -- Question: Find the cubic feet of volume the inventory occupies in each warehouse
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=XGuHTXQ7FB8
+-- Tamil Video: https://www.youtube.com/watch?v=V9xzUUcGKNU
 
 Create table Warehouse (name varchar(50), product_id int, units int);
 Truncate table Warehouse;
