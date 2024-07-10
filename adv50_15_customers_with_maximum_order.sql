@@ -1,7 +1,7 @@
 -- Question: Find the Customers with Maximum Order
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=r_Bl22m0lP8
+-- Tamil Video: https://www.youtube.com/watch?v=oYGUjtHgsNw
 
 Create table orders (order_number int, 
                      customer_number int);
@@ -28,6 +28,13 @@ insert into orders (order_number, customer_number) values
 | 5               |
 +-----------------+
 */
+
+-- Approach 0: Basic SQL with limitation 
+select customer_number
+       from orders 
+   group by customer_number 
+   order by count(customer_number) desc 
+      limit 1;
 
 -- Approach 1: Basic SQL with subquery
 with all_data as (
