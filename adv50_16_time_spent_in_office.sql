@@ -1,7 +1,7 @@
 -- Question: Find total time spent by each employee in office
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=ExoNWE0ZNJA
+-- Tamil Video: https://www.youtube.com/watch?v=95FJEHy5A-w 
 
 Create table Employees(emp_id int, 
                        event_day date, 
