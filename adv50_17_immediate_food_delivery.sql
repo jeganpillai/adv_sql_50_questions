@@ -24,10 +24,10 @@ insert into Delivery (delivery_id, customer_id, order_date, customer_pref_delive
 +----------------------+
 */
 
--- Approach 1: Summing up boolean flg
+-- Approach 1: Summing up Boolean Flags
 select round(sum(case when order_date = customer_pref_delivery_date then 1 else 0 end)/count(*) * 100.0,2) as delivery_flg 
        from Delivery ;
 
--- Approach 2: Using Count option 
+-- Approach 2: Using the COUNT Function
 select round(count(case when order_date = customer_pref_delivery_date then delivery_id end)/count(*) * 100.0,2) as delivery_flg 
        from Delivery ;
