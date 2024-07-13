@@ -26,6 +26,7 @@ insert into Calls (from_id, to_id, duration) values
 +---------+---------+------------+----------------+
 */
 
+-- Approach 1: Using UNION ALL 
 with all_raw_data as (
 select from_id,
        to_id,
@@ -44,3 +45,19 @@ select from_id,
        sum(duration) as total_duration 
        from all_raw_data 
    group by 1,2; 
+
+-- Approach 2: Using CASE statement 
+select case when from_id < to_id then from_id else to_id end as person1,
+       case when from_id < to_id then to_id else from_id end as person2,
+       count(*) as call_count,
+       sum(duration) as total_duration
+       from Calls 
+   group by 1,2 ;
+
+-- Approach 3: Using LEAST and GREATEST statement 
+select least(from_id,to_id) as person1,
+       greatest(from_id, to_id) as person2,
+       count(*) as call_count,
+       sum(duration) as total_duration
+       from Calls 
+   group by 1,2 ;
