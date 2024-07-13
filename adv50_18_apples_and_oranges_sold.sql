@@ -1,7 +1,7 @@
 -- Question: Find the difference between the number of apples and oranges sold each day
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=U2mtqKxiKQk
+-- Tamil Video: https://www.youtube.com/watch?v=6cCrhANVjXQ
 
 Create table Sales (sale_date date, fruit varchar(50), sold_num int);
 Truncate table Sales;
