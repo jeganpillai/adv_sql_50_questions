@@ -1,7 +1,7 @@
 -- Question: Find the percentage of immediate orders
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=ZEJVgVAOBRM
+-- Tamil Video: https://www.youtube.com/watch?v=30Etl7Y_nCs
 
 Create table Delivery (delivery_id int, 
                        customer_id int, 
