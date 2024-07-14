@@ -1,7 +1,7 @@
 -- Question: report the number of calls and the total call duration between friends
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=JeSreeYusM8
+-- Tamil Video: https://www.youtube.com/watch?v=SqC6gACgp14
 
 Create table Calls (from_id int, 
                     to_id int, 
