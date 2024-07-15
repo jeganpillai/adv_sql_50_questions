@@ -1,7 +1,7 @@
 -- Question: Report the name and balance of users with a balance higher than $10000
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=mps3VPdRZuU
+-- Tamil Video: https://www.youtube.com/watch?v=A6cWqWa1wjs
 
 create table Users (account int, name varchar(20));
 Truncate table Users;
