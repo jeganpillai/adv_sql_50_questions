@@ -1,7 +1,7 @@
 -- Question: Report all the duplicate emails
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=EClJafK82Z4
+-- Tamil Video: https://www.youtube.com/watch?v=i9HtiL05wmA
 
 Create table Person (id int, email varchar(255));
 Truncate table Person;
