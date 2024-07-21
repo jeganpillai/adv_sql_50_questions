@@ -1,7 +1,7 @@
 -- Question: Find all the pairs of actor and director where they collaborated at least three times.
 
 -- English Video: https://www.youtube.com/watch?v=E5pKAe-F8hw
--- Tamil Video:https://www.youtube.com/watch?v=hO057__D_R0 
+-- Tamil Video: https://www.youtube.com/watch?v=hO057__D_R0 
 
 Create table ActorDirector (seq int, actor_id int, director_id int);
 Truncate table ActorDirector;
