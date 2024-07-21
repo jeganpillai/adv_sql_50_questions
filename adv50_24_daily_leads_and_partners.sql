@@ -1,7 +1,7 @@
 -- Question: For each day and make, find the distinct leads and partners the cars are sold to. 
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=n7JJvhzFg0M
+-- Tamil Video: https://www.youtube.com/watch?v=uuRvaSGzhEY
 
 Create table DailySales(date_id date, 
                         make_name varchar(20), 
