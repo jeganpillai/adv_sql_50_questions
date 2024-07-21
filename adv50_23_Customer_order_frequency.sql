@@ -1,7 +1,7 @@
 -- Question: Find the customers who have spent at least $100 in each month of June and July 2024
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=UI9j0kbY1lc
+-- Tamil Video: https://www.youtube.com/watch?v=1hTqhP4MGY4
 
 Create table If Not Exists Customers 
      (customer_id int, 
