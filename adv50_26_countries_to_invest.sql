@@ -1,7 +1,7 @@
 -- Question: Find the countries where Telecom companies can invest based on call duration
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=DlI0TQKjwG4
+-- Tamil Video: https://www.youtube.com/watch?v=6n5nMArDdY0 
 
 Create table Person (id int, 
                      name varchar(15), 
