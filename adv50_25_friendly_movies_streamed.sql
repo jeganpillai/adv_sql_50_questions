@@ -1,7 +1,7 @@
 -- Question: Report the distinct titles of the kid-friendly movies streamed in June 2024
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=WPgYzTRta5s
+-- Tamil Video: https://www.youtube.com/watch?v=SLbrFfJ42-w
 
 Create table Content (content_id varchar(30), 
                       title varchar(30), 
