@@ -12,6 +12,7 @@ insert into Cinema (seat_id, free) values
 ,(4, 1)
 ,(5, 1);
 
+/*
 +---------+
 | seat_id |
 +---------+
@@ -19,6 +20,7 @@ insert into Cinema (seat_id, free) values
 | 4       |
 | 5       |
 +---------+
+*/
 
 -- Approach 1: General Self Join
 select distinct c1.seat_id
