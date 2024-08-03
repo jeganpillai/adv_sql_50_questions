@@ -51,3 +51,41 @@ select seat_id
        from raw_data  
       where free = 1 and nxt + prev > 0
    order by 1;
+
+-- Additional data for practice
+Truncate table Cinema;
+insert into Cinema (seat_id, free) values 
+ (1 , 0)
+,(2 , 1)
+,(3 , 0)
+,(4 , 1)
+,(5 , 1)
+,(6 , 1)
+,(7 , 0)
+,(8 , 1)
+,(9 , 1)
+,(10, 0)
+,(11, 0)
+,(12, 1)
+,(13, 1)
+,(14, 0)
+,(15, 1)
+,(16, 0)
+,(17, 0)
+,(18, 1)
+,(19, 0)
+,(20, 0);
+
+/*
++---------+
+| seat_id |
++---------+
+| 4       |
+| 5       |
+| 6       |
+| 8       |
+| 9       |
+| 12      |
+| 13      |
++---------+
+*/
