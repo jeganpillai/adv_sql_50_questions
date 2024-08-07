@@ -38,9 +38,14 @@ select coalesce(e.employee_id,s.employee_id) as employee_id,
    order by 1;
 
 -- SQL for databases not supporting FULL JOIN (MySQL...)
-select coalesce(e.employee_id,s.employee_id) as employee_id
-       from Employees e 
-  full join Salaries s 
+select e.employee_id -- , e.name, s.salary 
+       from Employees1 e 
+  left join Salaries1 s 
          on s.employee_id = e.employee_id
-      where e.name is null or s.salary is null
-   order by 1;
+      where s.salary is null or e.name is null 
+union all 
+select s.employee_id -- , e.name, s.salary 
+       from Employees1 e 
+ right join Salaries1 s 
+         on s.employee_id = e.employee_id
+      where s.salary is null or e.name is null
