@@ -1,7 +1,7 @@
 -- Question: Report the Employees ID With Missing Information
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=0VxCgRQ957c
+-- Tamil Video: https://www.youtube.com/watch?v=VaMfj8cWma8
 
 Create table Employees1 (employee_id int, name varchar(30));
 
