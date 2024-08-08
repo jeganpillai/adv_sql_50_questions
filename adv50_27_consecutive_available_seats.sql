@@ -1,7 +1,7 @@
 -- Question: Find all the Consecutive Available Seats in a cinema
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=P00_Nj0Pp4s
+-- Tamil Video: https://www.youtube.com/watch?v=f5IETYF14iw
 
 Create table Cinema (seat_id int, free int);
 Truncate table Cinema;
