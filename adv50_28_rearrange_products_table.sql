@@ -1,7 +1,7 @@
 -- Question: Rearrange the Products table so that each row has (product_id, store, price)
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=HrR_V_RT9c8
+-- Tamil Video: https://www.youtube.com/watch?v=7WFY872iqCc
 
 Create table Products (product_id int, store1 int, store2 int, store3 int);
 Truncate table Products;
