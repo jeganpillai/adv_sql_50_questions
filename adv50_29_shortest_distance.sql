@@ -1,7 +1,7 @@
 -- Question: Find the shortest distance between any two points
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=lGqeazsKBws
+-- Tamil Video: https://www.youtube.com/watch?v=GoFVRWY_kRc
 
 Create Table Point (x int not null);
 Truncate table Point;
