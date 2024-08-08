@@ -39,6 +39,19 @@ insert into Likes (user_id, page_id) values
 +------------------+
 */
 
+-- Approach 1: Using CTE table 
+with all_friends as (
+select user2_id as user_id from Friendship f where user1_id = 1
+union all
+select user1_id as user_id from Friendship f where user2_id = 1)
+select distinct l.page_id as recommended_page
+       from all_friends a 
+ inner join Likes l 
+         on l.user_id = a.user_id 
+      where l.page_id not in (select page_id from Likes where user_id = 1)
+order by 1;
+ 
+-- Approach 2: Using Subquery table 
 select distinct page_id as recommended_page
        from (select user1_id as user_id from Friendship f where user2_id = 1 
              union 
