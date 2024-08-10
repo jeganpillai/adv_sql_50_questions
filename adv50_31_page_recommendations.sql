@@ -1,7 +1,7 @@
 -- Question: write a solution to recommend pages to the user 
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=KG-9ee0Qehc
+-- Tamil Video: https://www.youtube.com/watch?v=y_DI9ydX-Js
 
 Create table Friendship (user1_id int, user2_id int);
 Truncate table Friendship;
