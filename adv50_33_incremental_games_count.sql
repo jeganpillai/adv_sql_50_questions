@@ -1,7 +1,7 @@
 -- Question: Report for each player and date, how many games played so far by the player
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=LNT7ztN3SdQ
+-- Tamil Video: https://www.youtube.com/watch?v=LAIkH9AgrZo 
 
 Create table Activity (player_id int, 
                        device_id int, 
