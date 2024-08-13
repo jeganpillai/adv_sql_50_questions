@@ -1,7 +1,7 @@
 -- Question: Report the type of Node in the Tree
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=bH6P2vzp4jM
+-- Tamil Video: https://www.youtube.com/watch?v=v-jgc7mD7zA
 
 Create table Tree (id int, p_id int);
 Truncate table Tree;
