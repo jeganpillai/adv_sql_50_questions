@@ -1,7 +1,7 @@
 -- Question: Report the number of grand slam tournaments won by each player
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=qeLrIeix7TI
+-- Tamil Video: https://www.youtube.com/watch?v=GUIE7Nq4N7Y
 
 Create table Players (player_id int, player_name varchar(20));
 Truncate table Players;
