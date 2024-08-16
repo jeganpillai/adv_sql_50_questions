@@ -1,7 +1,7 @@
 -- Question: Find the accounts that should be banned from a platform if it was logged in at same moment from two different IP addresses.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=haU3SLA0pLM
+-- Tamil Video: https://www.youtube.com/watch?v=LDE56ti1hu0
 
 Create table LogInfo (account_id int, 
                       ip_address varchar(25), 
