@@ -26,6 +26,16 @@ insert into Students (id, name, department_id) values
 ,( 7, 'Daiana'  , 33)
 ,(11, 'Madelynn',  1);
 
+/*
++------+----------+
+| id   | name     |
++------+----------+
+| 2    | John     |
+| 3    | Steve    |
+| 4    | Jasmine  |
+| 7    | Daiana   |
++------+----------+
+*/
 
 -- Approach 1: Using the LEFT JOIN 
 select s.id, s.name
