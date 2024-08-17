@@ -1,6 +1,6 @@
 -- Question: Report the device that is first logged in for each player
 
--- English Video: 
+-- English Video: https://www.youtube.com/watch?v=cA3SrqDnjcg
 -- Tamil Video: 
 
 Create table Activity (player_id int, device_id int, event_date date, games_played int);
