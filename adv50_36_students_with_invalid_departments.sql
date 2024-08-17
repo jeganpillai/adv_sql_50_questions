@@ -1,7 +1,7 @@
 -- Question: Report the name of all students who are enrolled in departments that no longer exist
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=47Ypdzt49AA
+-- Tamil Video: https://www.youtube.com/watch?v=-Bq1nt0x3A4 
 
 
 Create table Departments (id int, name varchar(30));
