@@ -46,7 +46,14 @@ select a.player_id, a.device_id
                                  from Activity src
                                 where src.player_id = a.player_id );
 
--- Approach 4: Using WINDOWS function
+-- Approach 4: Using concatenated values 
+select a.player_id, a.device_id
+       from Activity a
+      where (player_id, event_date) in (select player_id, 
+                                               min(event_date) as event_date 
+                                               from Activity group by 1);
+ 
+-- Approach 5: Using WINDOWS function
 with raw_data as (
 select a.player_id, a.device_id,
        row_number() over(partition by a.player_id order by event_date) as chk
