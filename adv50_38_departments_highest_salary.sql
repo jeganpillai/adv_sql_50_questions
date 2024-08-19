@@ -94,4 +94,3 @@ select Department,
        Salary
        from raw_data 
       where rnum = 1;
-*/
