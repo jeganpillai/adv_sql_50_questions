@@ -1,7 +1,7 @@
 -- Question: Find employees who have the highest salary in each of the departments.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=gHYOMefMAnk
+-- Tamil Video: https://www.youtube.com/watch?v=NO7Fz1S2_uY
 
 
 Create table Employee (id int, name varchar(255), salary int, departmentId int);
