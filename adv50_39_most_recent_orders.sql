@@ -1,7 +1,7 @@
 -- Question: Find the most recent order(s) of each product
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=NnB2FwdMLhM
+-- Tamil Video: https://www.youtube.com/watch?v=CN53cH2GEKQ
 
 Create table Customers (customer_id int, 
                         name varchar(10));
