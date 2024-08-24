@@ -35,7 +35,7 @@ select distinct t.transaction_id
         and r.amount = t.amount 
    order by 1 ;
 
--- Approach 2: Using Siubquery table
+-- Approach 2: Using Subquery table
 select distinct t.transaction_id
        from Transactions t 
  inner join (select date(day) as day, max(amount) as amount 
