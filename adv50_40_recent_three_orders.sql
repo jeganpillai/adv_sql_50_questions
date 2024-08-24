@@ -1,7 +1,7 @@
 -- Question: Find the most recent three orders of each user
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=5Z-2Ki9bmbA
+-- Tamil Video: https://www.youtube.com/watch?v=ttWPlIpeWcE
 
 Create table Customers (customer_id int, name varchar(10));
 Truncate table Customers;
