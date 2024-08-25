@@ -1,7 +1,7 @@
 -- Question: Report the transaction IDs with the maximum amount on their respective day
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Y-AKr3y12Vw
+-- Tamil Video: https://www.youtube.com/watch?v=-IxDh4PxWfc 
 
 Create table Transactions (transaction_id int, day datetime, amount int);
 Truncate table Transactions;
