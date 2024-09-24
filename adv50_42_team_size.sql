@@ -1,4 +1,8 @@
 -- Question: Find the Team size for each employee
+
+-- English Video: https://www.youtube.com/watch?v=FyfFIP1tO10
+-- Tamil Video: https://www.youtube.com/watch?v=LUlsQrSCy9Q
+
 Create table If Not Exists Employee (employee_id int, team_id int);
 Truncate table Employee;
 insert into Employee (employee_id, team_id) values 
