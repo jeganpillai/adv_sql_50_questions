@@ -1,7 +1,7 @@
 -- Question: Report the most experienced employees in each project.
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=FyfFIP1tO10
+-- Tamil Video: https://www.youtube.com/watch?v=LUlsQrSCy9Q
 
 Create table Project(project_id int, employee_id int);
 Truncate table Project;
