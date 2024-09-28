@@ -34,7 +34,7 @@ select min(log_id) as start_id,
        from bucketing 
        group by bucket;
 
---Approach 1: Using Windows function in Subquery format
+--Approach 2: Using Windows function in Subquery format
 select min(log_id) as start_id,
        max(log_id) as end_id 
        from (select log_id,
@@ -43,4 +43,12 @@ select min(log_id) as start_id,
                     from (select log_id, 
                                   row_number() over(order by log_id) as rnum 
                                   from Logs) a )b 
+  group by bucket;
+
+-- Approach 3: Simplified version
+select min(log_id) as start_id,
+       max(log_id) as end_id 
+       from (select log_id,
+                    log_id - row_number() over(order by log_id) as bucket 
+                    from Logs ) a 
   group by bucket;
