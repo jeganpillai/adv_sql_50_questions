@@ -1,7 +1,7 @@
 -- Question: Find the Quiet Students in all Exams
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=d_C3SB2ZWdg
+-- Tamil Video  : https://www.youtube.com/watch?v=18W67mqjPtw
 
 Create table Student (student_id int, student_name varchar(30));
 Truncate table Student;
