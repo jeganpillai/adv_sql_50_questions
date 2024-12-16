@@ -1,7 +1,7 @@
 -- Question: Find the Frequently Ordered Products for each customer
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=zwnLhjdgP8k
+-- Tamil Video  : https://www.youtube.com/watch?v=Cu_ijbcFkxY
 
 Create table If Not Exists Customers (customer_id int, name varchar(10));
 Truncate table Customers;
