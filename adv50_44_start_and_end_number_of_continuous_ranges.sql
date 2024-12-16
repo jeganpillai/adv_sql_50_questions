@@ -1,3 +1,8 @@
+-- Question: Find the start and end number of continuous ranges
+
+-- English Video: https://www.youtube.com/watch?v=WkFny-7eA_I
+-- Tamil Video  : https://www.youtube.com/watch?v=s3QeKhwFQUM
+
 Create table If Not Exists Logs (log_id int);
 Truncate table Logs;
 insert into Logs (log_id) values 
