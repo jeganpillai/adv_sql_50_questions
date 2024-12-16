@@ -1,7 +1,7 @@
 -- Question: Find the Biggest Window between Visits
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=hZOuUBTIZEM
+-- Tamil Video  : https://www.youtube.com/watch?v=VRuEFYSl_Ys
 
 Create table UserVisits(user_id int, visit_date date);
 Truncate table UserVisits;
