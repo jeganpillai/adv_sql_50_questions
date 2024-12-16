@@ -1,7 +1,7 @@
 -- Question: Employees Reports to CEO
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=xhuT8LT5_a0
+-- Tamil Video  : https://www.youtube.com/watch?v=4cnJZJbmgv8
 
 Create table Employees 
 (employee_id int, employee_name varchar(30), manager_id int);
