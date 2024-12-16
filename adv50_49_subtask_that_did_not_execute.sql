@@ -31,8 +31,30 @@ insert into Executed (task_id, subtask_id) values
 +---------+------------+
 */
 
+-- Approach 1: Hardcoded subtask values 
+with seq_dataset as (
+select 1 as num 
+union all 
+select 2 
+union all 
+select 3 
+union all 
+select 4 )
+select a.task_id,
+       b.num as subtask_id,
+       a.subtasks_count
+       from Tasks a 
+ inner join seq_dataset b 
+         on 1 = 1 
+        and b.num <= a.subtasks_count 
+  left join Executed e 
+         on e.task_id = a.task_id 
+        and e.subtask_id = b.num 
+      where e.subtask_id is null 
+   order by 1,2,3;
 
--- Approach 1: Using Recursive function and start with One 
+
+-- Approach 2: Using Recursive function and start with One 
 with recursive all_task as (
 select task_id,
        1 as subtask_id,
@@ -57,7 +79,7 @@ select a.task_id,
    order by 1,2;
 
 
--- Approach 2: Using Recursive function and start with subtask count 
+-- Approach 3: Using Recursive function and start with subtask count 
 with recursive all_task as (
 select task_id,
        subtasks_count as subtask_id 
@@ -79,7 +101,7 @@ select a.task_id,
       where e.subtask_id is null 
    order by 1,2;
 
--- Approach 3: Replace LEFT join with NOT IN clause 
+-- Approach 4: Replace LEFT join with NOT IN clause 
 with recursive all_task as (
 select task_id,
        subtasks_count as subtask_id 
