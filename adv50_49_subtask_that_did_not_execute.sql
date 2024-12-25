@@ -1,7 +1,7 @@
 -- Question: Find the Subtask that did not Execute
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=jYLflFg6O48
+-- Tamil Video  : https://www.youtube.com/watch?v=xkoTN-zkksA
 
 Create table Tasks (task_id int, subtasks_count int);
 Truncate table Tasks;
